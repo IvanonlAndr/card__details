@@ -1,0 +1,101 @@
+@media(max-width:375px){
+    .card{
+        flex-direction: column;
+
+        &__inner-left{
+            max-width: 375px;
+            width: 100%;
+            height: 240px;
+            padding-left: 73px;
+            padding-right: 16px;
+            padding-top: 32px;
+            margin-bottom: 91px;
+        }
+
+        &__back{
+            position: static;
+            width: 286px;
+            height: 157px;
+            padding-top: 14px;
+        }
+
+        &__line{
+            height: 34px;
+            margin-bottom: 15px;
+        }
+
+        &__cvc-inner{
+            width: 230px;
+            height: 29px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        &__cvc{
+            font-size: 9px;
+        }
+
+        &__front{
+            width: 285px;
+            height: 156px;
+            bottom: -42px;
+            top: auto;
+            left: 17px;
+            padding: 17px 20px 0;
+        }
+
+        &__logo{
+            width: 54px;
+            height: 30px;
+            margin-bottom: 37px;
+        }
+
+        &__number{
+            font-size: 18px;
+            letter-spacing: 2.2px;
+            margin-bottom: 17px;
+        }
+
+        &__name{
+            font-size: 9px;
+        }
+
+        &__date{
+            font-size: 9px;
+        }
+
+        &__inner-right{
+            width: auto;
+            padding-left: 0;
+            justify-content: center;
+        }
+
+        &__inner-form{
+            width: 327px;
+        }
+
+        &__main-info{
+            width: 327px;
+        }
+
+        &__exp-inner{
+            width: 327px;
+        }
+
+        &__exp-date{
+            width: 72px;
+        }
+
+        &__exp-date:nth-child(2) {
+            margin-right: 8px;
+        }
+
+        &__backside-info{
+            width: 164px;
+        }
+
+        .confirm{
+            width: 327px;
+        }
+    }
+}

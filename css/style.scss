@@ -1,0 +1,236 @@
+.card {
+    display: flex;
+
+    &__inner-left {
+        width: 483px;
+        height: 900px;
+        background-image: url(../images/bg-main-desktop.png);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__front {
+        width: 447px;
+        height: 245px;
+        background-image: url(../images/bg-card-front.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 28px 32px 0;
+        position: absolute;
+        top: 187px;
+        right: -128px;
+    }
+
+    &__back {
+        width: 447px;
+        height: 245px;
+        background-image: url(../images/bg-card-back.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 186px;
+        right: -222px;
+    }
+
+    &__line {
+        width: 100%;
+        height: 54px;
+        background: #2F2F2F;
+        margin-bottom: 24px;
+    }
+
+    &__cvc-inner {
+        border-radius: 4px;
+        background: #ADB5BE;
+        width: 361px;
+        height: 38px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    &__cvc {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+
+    &__logo {
+        margin-bottom: 64px;
+    }
+
+    &__number {
+        color: #fff;
+        font-size: 28px;
+        letter-spacing: 3.422px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+
+    &__inner-name-n-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &__date {
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+
+    &__inner-right {
+        width: 957px;
+        display: flex;
+        align-items: center;
+        padding-left: 349px;
+    }
+
+    &__inner-form {
+        width: 381px;
+    }
+
+    label {
+        text-transform: uppercase;
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+
+    input {
+        border-radius: 8px;
+        border: 1px solid #DFDEE0;
+        background: #FFF;
+        margin-top: 9px;
+        font-family: 'Space Grotesk';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #number{
+        text-transform: uppercase;
+    }
+
+    #number::placeholder{
+        text-transform: lowercase;
+    }
+
+    &__wrong-text{
+        color: #FF5050;
+        margin-top: 8px;
+    }
+
+    .wrong{
+        margin-bottom: 26px;
+    }
+
+    .wrongBorder{
+        border: 1px solid #FF5050;
+    }
+
+    &__main-info {
+        width: 381px;
+        height: 45px;
+        
+    }
+
+    &__exp-date {
+        width: 80px;
+        height: 45px;
+    }
+
+    &__exp-date:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    &__exp-inner {
+        width: 381px;
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    &__backside-info {
+        width: 191px;
+        height: 45px;
+    }
+
+    input::placeholder {
+        font-weight: 500;
+        font-family: 'Space Grotesk';
+        font-size: 18px;
+    }
+
+    &__exp-date::placeholder {
+        text-transform: uppercase;
+    }
+
+    .confirm {
+        width: 381px;
+        height: 53px;
+        background-color: hsl(278, 68%, 11%);
+        color: #fff;
+        font-family: 'Space Grotesk';
+        font-size: 18px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    &__inner-hidden {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .complete {
+        margin-bottom: 35px;
+    }
+
+    .thx {
+        color: #21092F;
+        font-size: 28px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 3.422px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    .parh{
+        color: #8F8694;
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+}
+
+@import "global";
+@import "media";
